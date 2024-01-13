@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ewn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+
+}
+.wrapper{
+    width: 400px ;
+    height: 400px;
+    display: grid;
+    grid-template-areas:
+    "reds greens"
+    "blues yellows"
+    ;
+    gap:5px;
+  
+}
+
+.reds{
+    grid-area: reds;
+ 
+    background-color: #F25022;
+    color: aliceblue;
+}
+
+.greens{
+    grid-area: greens;
+    background-color: #7FBA00;
+    color: aliceblue;
+}
+
+.blues{
+    grid-area: blues;
+    background-color: #00A4EF;
+color: aliceblue;
+}
+
+.yellows{
+    grid-area: yellows;
+    background-color: #FFB900;
+}
+
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size:12em;
+    display: flex;
+    color: #737373;
+    justify-content: center;
+    align-items: center;
+}
